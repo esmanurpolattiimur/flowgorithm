@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#246;rnek 6"/>
+        <attribute name="authors" value="esman"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-22 02:29:15 &#214;&#214;"/>
+        <attribute name="created" value="ZXNtYW47RVNNQU5VUjsyMDI0LTEwLTIyOzAxOjU0OjIwIMOWw5Y7MjYxMQ=="/>
+        <attribute name="edited" value="ZXNtYW47RVNNQU5VUjsyMDI0LTEwLTIyOzAyOjI5OjE1IMOWw5Y7MTsyNzI2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Metin" type="String" array="False" size=""/>
+            <declare name="Say&#305;" type="Integer" array="False" size=""/>
+            <output expression="&quot;L&#252;tfen metin giriniz&quot;" newline="True"/>
+            <input variable="metin"/>
+            <assign variable="Say&#305;" expression="0"/>
+            <output expression="&quot;L&#252;tfen say&#305; giriniz&quot;" newline="True"/>
+            <input variable="say&#305;"/>
+            <while expression="say&#305;!=0">
+                <output expression="Metin" newline="True"/>
+                <assign variable="say&#305;" expression="say&#305;-1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
