@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="&#246;rnek 1"/>
+        <attribute name="authors" value="esman"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-22 01:07:40 &#214;&#214;"/>
+        <attribute name="created" value="ZXNtYW47RVNNQU5VUjsyMDI0LTEwLTIxOzA4OjQyOjAwIMOWUzsyNDgx"/>
+        <attribute name="edited" value="ZXNtYW47RVNNQU5VUjsyMDI0LTEwLTIyOzAxOjA3OjQwIMOWw5Y7NTsyNzIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="say&#305;, N, a" type="Real" array="False" size=""/>
+            <output expression="&quot;L&#252;tfen pozitif tamsay&#305; giriniz&quot;" newline="True"/>
+            <input variable="N"/>
+            <comment text="0 de&#287;eri girilene kadar girilen t&#252;m say&#305;lar&#305;n ortalamas&#305;n&#305; alma"/>
+            <assign variable="a" expression="0"/>
+            <assign variable="say&#305;" expression="0"/>
+            <while expression="N!=0">
+                <if expression="(N%2)!=0">
+                    <then>
+                        <assign variable="a" expression="N+a"/>
+                        <assign variable="say&#305;" expression="say&#305;+1"/>
+                    </then>
+                    <else/>
+                </if>
+                <output expression="&quot;L&#252;tfen pozitif tamsay&#305; giriniz&quot;" newline="True"/>
+                <input variable="N"/>
+            </while>
+            <assign variable="A" expression="A/Say&#305;"/>
+            <output expression="A" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

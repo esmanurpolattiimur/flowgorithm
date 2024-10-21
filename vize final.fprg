@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="vize final"/>
+        <attribute name="authors" value="esman"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-21 08:28:52 &#214;S"/>
+        <attribute name="created" value="ZXNtYW47RVNNQU5VUjsyMDI0LTEwLTIxOzA3OjUzOjUwIMOWUzsyNDg3"/>
+        <attribute name="edited" value="ZXNtYW47RVNNQU5VUjsyMDI0LTEwLTIxOzA4OjI4OjUyIMOWUzsxOzI2MDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="v, f, G" type="Real" array="False" size=""/>
+            <output expression="&quot;L&#252;tfen vize notunuzu giriniz&quot;" newline="True"/>
+            <input variable="v"/>
+            <output expression="&quot;L&#252;tfen final notunuzu giriniz&quot;" newline="True"/>
+            <input variable="f"/>
+            <assign variable="G" expression="v*0.4+f*0.6"/>
+            <output expression="&quot;Ge&#231;me notunuz&quot; &amp; G" newline="True"/>
+            <if expression="G&gt;=60">
+                <then>
+                    <output expression="&quot;Ge&#231;ti&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Kald&#305;&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
